@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', serif;
+}
+
+aside {
+  margin: 0 auto;
+  padding: 0.8em 1em;
+  max-width: 500px;
+  background-color: #efefef;
+}
+
+.material-reveal {
+  margin-bottom: 0.8em;
+}
+
+.material-reveal:last-child {
+  margin-bottom: 0;
+}
