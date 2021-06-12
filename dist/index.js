@@ -276,10 +276,10 @@ export default function MaterialReveal({
     document.body.addEventListener('mouseleave', callUpdateState);
     document.body.addEventListener('mousemove', onMouseMove); // touch listeners
 
-    info.addEventListener('touchstart', e => convertMouseDown);
+    info.addEventListener('touchstart', convertMouseDown);
     document.body.addEventListener('touchend', callUpdateState);
     document.body.addEventListener('touchcancel', callUpdateState);
-    document.body.addEventListener('touchmove', e => convertMouseMove);
+    document.body.addEventListener('touchmove', convertMouseMove);
     return () => {
       // keyboard listeners
       info.removeEventListener('keyup', onKeyUp); // mouse listeners
@@ -290,10 +290,10 @@ export default function MaterialReveal({
       document.body.removeEventListener('mouseleave', callUpdateState);
       document.body.removeEventListener('mousemove', onMouseMove); // touch listeners
 
-      info.removeEventListener('touchstart', e => convertMouseDown);
+      info.removeEventListener('touchstart', convertMouseDown);
       document.body.removeEventListener('touchend', callUpdateState);
       document.body.removeEventListener('touchcancel', callUpdateState);
-      document.body.removeEventListener('touchmove', e => convertMouseMove);
+      document.body.removeEventListener('touchmove', convertMouseMove);
     };
   }, [isActive, isOpen, isOpenLast, startPos]);
   return <StyledDiv className={classList.join(' ')}>
