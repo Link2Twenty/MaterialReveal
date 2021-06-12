@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.a88e7f0f.chunk.css",
-    "main.js": "/static/js/main.f63c7895.chunk.js",
-    "main.js.map": "/static/js/main.f63c7895.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.40605ac3.js",
-    "runtime-main.js.map": "/static/js/runtime-main.40605ac3.js.map",
-    "static/js/2.5f5afe75.chunk.js": "/static/js/2.5f5afe75.chunk.js",
-    "static/js/2.5f5afe75.chunk.js.map": "/static/js/2.5f5afe75.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.a88e7f0f.chunk.css.map": "/static/css/main.a88e7f0f.chunk.css.map",
-    "static/js/2.5f5afe75.chunk.js.LICENSE.txt": "/static/js/2.5f5afe75.chunk.js.LICENSE.txt"
+    "main.css": "./MaterialReveal/static/css/main.43f6a256.chunk.css",
+    "main.js": "./MaterialReveal/static/js/main.f63c7895.chunk.js",
+    "main.js.map": "./MaterialReveal/static/js/main.f63c7895.chunk.js.map",
+    "runtime-main.js": "./MaterialReveal/static/js/runtime-main.06c1c3d2.js",
+    "runtime-main.js.map": "./MaterialReveal/static/js/runtime-main.06c1c3d2.js.map",
+    "static/js/2.24445b8b.chunk.js": "./MaterialReveal/static/js/2.24445b8b.chunk.js",
+    "static/js/2.24445b8b.chunk.js.map": "./MaterialReveal/static/js/2.24445b8b.chunk.js.map",
+    "index.html": "./MaterialReveal/index.html",
+    "static/css/main.43f6a256.chunk.css.map": "./MaterialReveal/static/css/main.43f6a256.chunk.css.map",
+    "static/js/2.24445b8b.chunk.js.LICENSE.txt": "./MaterialReveal/static/js/2.24445b8b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.40605ac3.js",
-    "static/js/2.5f5afe75.chunk.js",
-    "static/css/main.a88e7f0f.chunk.css",
+    "static/js/runtime-main.06c1c3d2.js",
+    "static/js/2.24445b8b.chunk.js",
+    "static/css/main.43f6a256.chunk.css",
     "static/js/main.f63c7895.chunk.js"
   ]
 }
